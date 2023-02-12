@@ -1,0 +1,26 @@
+POST http://localhost:8002/notes
+Content-Type: application/json
+
+{
+  "title": "Test note creation",
+  "description": "Testing, testing 123..."
+}
+
+### Add second note
+POST http://localhost:8002/notes
+Content-Type: application/json
+
+{
+  "title": "Note creation",
+  "description": "Testing, testing 456..."
+}
+
+
+### Add third note
+POST http://localhost:8002/notes
+Content-Type: application/json
+
+{
+  "title": "Note creation again",
+  "description": "Testing, testing 789..."
+}
