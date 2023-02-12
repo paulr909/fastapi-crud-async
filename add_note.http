@@ -15,7 +15,6 @@ Content-Type: application/json
   "description": "Testing, testing 456..."
 }
 
-
 ### Add third note
 POST http://localhost:8002/notes
 Content-Type: application/json
