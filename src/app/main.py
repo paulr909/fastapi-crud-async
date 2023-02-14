@@ -22,5 +22,4 @@ app.include_router(
     notes.router,
     prefix="/api/v1/notes",
     tags=["notes"],
-    responses={404: {"description": "Not found"}},
 )
