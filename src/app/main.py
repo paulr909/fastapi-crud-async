@@ -18,4 +18,9 @@ async def shutdown():
 
 
 app.include_router(ping.router)
-app.include_router(notes.router, prefix="/notes", tags=["notes"])
+app.include_router(
+    notes.router,
+    prefix="/api/v1/notes",
+    tags=["notes"],
+    responses={404: {"description": "Not found"}},
+)
