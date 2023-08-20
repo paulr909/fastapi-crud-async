@@ -19,4 +19,4 @@ Test the routes:
 
 - [http://localhost:8002/ping](http://localhost:8002/ping)
 - [http://localhost:8002/docs](http://localhost:8002/docs)
-- [http://localhost:8002/notes](http://localhost:8002/notes)
+- [http://localhost:8002/api/v1/notes](http://localhost:8002/api/v1/notes)
