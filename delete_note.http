@@ -1,0 +1,3 @@
+### Delete note
+DELETE http://localhost:8002/api/v1/notes/4/
+Content-Type: application/json

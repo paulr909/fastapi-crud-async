@@ -23,3 +23,12 @@ Content-Type: application/json
   "title": "Note creation again",
   "description": "Testing, testing 789..."
 }
+
+### Add forth note
+POST http://localhost:8002/api/v1/notes
+Content-Type: application/json
+
+{
+  "title": "May the 4th be with you",
+  "description": "Testing, testing data..."
+}

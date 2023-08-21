@@ -1,0 +1,8 @@
+### Update note
+PUT http://localhost:8002/api/v1/notes/1/
+Content-Type: application/json
+
+{
+  "title": "May the force be with you Luke",
+  "description": "Testing, testing data 123..."
+}
